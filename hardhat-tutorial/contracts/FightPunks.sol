@@ -42,7 +42,7 @@ contract FightPunks is ERC721Enumerable, Ownable {
     /**
      * @dev ERC721 constructor takes in a `name` and a `symbol` to the token collection.
      * name in our case is `Fight Punks` and symbol is `FP`.
-     * Constructor for Crypto Devs takes in the baseURI to set _baseTokenURI for the collection.
+     * Constructor for Fight punks takes in the baseURI to set _baseTokenURI for the collection.
      * It also initializes an instance of whitelist interface.
      */
     constructor(string memory _baseTokenURI, address whitelistContract)
